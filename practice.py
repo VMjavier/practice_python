@@ -57,9 +57,26 @@ result = ' '.join(animal)
 print(result)
 result = ' - '.join(animal)
 print(result)
-"""
+
 
 #strip(): Removes all given characters starting from the beginning and end of the string
 animal = "loscamareroslocos"
 result = animal.strip("sol")
 print(result)
+
+#desempacar 
+palabra = "key"
+a1, a2, a3 = palabra
+print(a1)
+print(a3)
+"""
+
+#metodos con string
+animal = "cabAllo"
+print(animal)
+print(animal.upper())
+print(animal.capitalize())
+print(animal.count("l"))
+print(animal.lower())
+print(animal.lower().isupper())
+
