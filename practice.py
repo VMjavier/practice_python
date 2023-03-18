@@ -69,7 +69,7 @@ palabra = "key"
 a1, a2, a3 = palabra
 print(a1)
 print(a3)
-"""
+
 
 #metodos con string
 animal = "cabAllo"
@@ -80,3 +80,39 @@ print(animal.count("l"))
 print(animal.lower())
 print(animal.lower().isupper())
 
+
+############################################################
+####################### list in Python #####################
+list1 = list()
+list2 = [1, 2, "a", 2.3]
+#print(list2)
+#print(len(list2))
+#print(list2[1])
+
+a0, a1, *a3 = list2
+print(a1)
+print(a3)
+print(1 in list2)
+print(5 in list2)
+"""
+
+list1 = []
+print(list1)
+
+list1.append(23)
+print(list1)
+
+list1.append(38)
+print(list1)
+
+list2 = [212, 232, 242]
+print(list1+list2)#concat
+
+animal = "dog"
+print(list(animal))
+
+list1.insert(2,"insert")
+print(list1)
+
+list2.remove(232)
+print(list2)
