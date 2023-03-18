@@ -96,6 +96,7 @@ print(1 in list2)
 print(5 in list2)
 """
 
+"""
 list1 = []
 print(list1)
 
@@ -116,3 +117,46 @@ print(list1)
 
 list2.remove(232)
 print(list2)
+
+list3 = list("hipopotamu")
+print(list3)
+list3.pop(5)
+print(list3)
+
+list1 = list("hipopotamu")
+list2 = list1.copy()
+del list1[0:3]
+print(list1)
+del list1[-1]
+print(list1)
+print(list2)
+
+# extend
+list1 = ['item1', 'item2']
+list2 = ['item3', 'item4', 'item5']
+list1.extend(list2)
+print(list1)
+print(list2)
+"""
+
+#count
+list1 = list("hipopotamu")
+c = list1.count("o")
+print(c)
+
+#reverce
+list1.reverse() #with print = none
+print(list1)
+
+#index
+print(list1.index("o"))
+
+#sort
+list1.sort()
+print(list1)
+
+list1.sort(reverse=True)
+print(list1)
+
+sorted(list1)
+print(list1)
