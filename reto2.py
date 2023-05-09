@@ -8,5 +8,20 @@
  * Ejemplo: Nido - Odín.
  */ """
 
+a = "PERROs"
+b = "eoprr"
+
+def anagrama(a,b):
+    x=list(a.lower())
+    y=list(b.lower())
+    x.sort()
+    y.sort()
+    if(x == y):
+        print("es anagrama")
+    else:
+        print("no es anagrama")
+
+
+anagrama(a,b)
  
 
